@@ -4,7 +4,13 @@
 // Session 1: add all numbers divisible by 3 in the range from 1 to 100 inclusive to get the file name
 // Session 2: add all numbers divisible by 7 in the range from 1 to 100 inclusive to get the file name
 
-
+let total = 0;
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0){
+        total = total + i;
+    }
+}
+console.log(total);
 
 
 
